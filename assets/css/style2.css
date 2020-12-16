@@ -1,0 +1,123 @@
+body{
+   
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+}
+
+.fondo{
+    background-image: url("../../public/img/hospital-2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.fondo2{
+    background-image: url("../../public/img/hospital.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+.fondo3{
+    background-image: url("../../public/img/1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+a:hover {
+    text-decoration: none;
+    color: mediumslateblue;
+    
+  }
+
+
+/*Estilo visual del menu con barras saliendo*/
+.menu{
+    list-style: none;
+    line-height: 40px;
+    margin: 2em auto;
+    /*outline: 1px solid red;*/
+    padding-left: 2%;
+    width: 15em;
+    
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-left: 6%;
+    
+    
+}
+.menu a:hover{
+    color: white;
+    margin-left: 14%;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    text-decoration: none;
+ 
+    
+}
+
+.menu li{
+    /*outline: 1px solid green;*/
+    box-shadow: 2px 0 #1F2F86 inset ;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    
+    
+}
+.menu li:hover{
+    box-shadow: 15em 0 #1F2F86 inset;  
+
+}
+
+section{
+    background: rgba(17,27,84,.94);
+    position: absolute;
+    padding-right: .3em;
+    left: -18em;
+    z-index: 20;
+    height: 100vh;
+    transition: all .4s;
+  
+}
+
+section.mostrar{
+    left: 0;
+    overflow: hidden;
+   
+    height: 100vh;
+}
+
+
+#mostrar-nav{
+    text-decoration: none;
+    text-align: left;
+    width: 10%;
+    height: 1%;;
+}
+
+#navbarNav{
+    transition: all .6s;
+    
+}
+
+

@@ -1,0 +1,86 @@
+/* General*/
+body{
+   
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.princ-pag{
+    background-image: url("../../public/img/2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fondo{
+    background-image: url("../../public/img/hospital.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    
+}
+.fondo2{
+    background-image: url("../../public/img/hospital-2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.fondo3{
+    background-image: url("../../public/img/1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+#ancla{
+    text-decoration: none;
+    text-align: left;
+    width: 10%;
+    height: 1%;
+    
+}
+#ancla2{
+    padding-left: 2.2%;
+}
+
+#text-index{
+    padding-top: 12%;
+    text-shadow: 2px 2px 2px white;
+    color: #111B54;
+}
+.index-a{
+    text-shadow: 1px 2px 2px white;
+    color:   #111B54;
+    font-size: 150%;
+}
+
+.index-b{
+    text-shadow: 2px 2px 2px black;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: mediumslateblue;
+    
+  }
+
+
